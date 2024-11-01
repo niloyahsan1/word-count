@@ -81,3 +81,46 @@ textarea:focus {
 .result span:hover {
     color: #a777e3;
 }
+
+/* Responsive Design For tablets and smaller desktops */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+    
+    h1 {
+        font-size: 22px;
+    }
+    
+    .git_link {
+        width: 80%;
+        max-width: 100%;
+    }
+}
+
+/* Responsive Design For mobile devices */
+@media (max-width: 480px) {
+    .container {
+        padding: 15px;
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    textarea {
+        height: 250px;
+        font-size: 14px;
+    }
+
+    .result {
+        font-size: 18px;
+    }
+
+    .git_link {
+        width: 90%;
+        font-size: 14px;
+        padding: 8px;
+    }
+}
