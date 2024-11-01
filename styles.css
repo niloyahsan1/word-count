@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+}
+
+.git_link {
+    position: sticky;
+    top: 0;
+    background-color: #33338d;
+    color: white;
+    width: 40%;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    max-width: 700px;
+    width: 100%;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #4b4b4b;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 300px;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    resize: none;
+    outline: none;
+    background-color: #f9f9f9;
+    transition: box-shadow 0.3s;
+}
+
+textarea:focus {
+    border-color: #a777e3;
+    box-shadow: 0 4px 8px rgba(103, 114, 229, 0.2);
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #555;
+}
+
+.result p {
+    margin: 10px 0;
+}
+
+.result span {
+    font-weight: bold;
+    color: #6e8efb;
+    transition: color 0.3s ease;
+}
+
+.result span:hover {
+    color: #a777e3;
+}
