@@ -7,7 +7,7 @@ A simple, responsive web application that allows users to count the words and ch
 ## Website Preview
 
 <p align = "center">
-<img src="https://github.com/user-attachments/assets/233a4b7c-12a4-41b6-ad4e-cfa059a760af" alt="Word Count Website Preview" width="700">
+<img src="https://github.com/user-attachments/assets/233a4b7c-12a4-41b6-ad4e-cfa059a760af" alt="Word Count Website Preview" width="800">
 </p>
 
 ## Live Link
