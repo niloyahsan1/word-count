@@ -1,5 +1,5 @@
 # Word Counter
-A clean, fast, and responsive web application for real-time word and character analysis. Built with vanilla HTML5, CSS3, and JavaScript.
+A responsive web application for real-time word and character count analysis. Built with vanilla HTML5, CSS and JavaScript.
 
 
 ## Website Preview
